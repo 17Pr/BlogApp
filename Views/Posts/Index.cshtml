@@ -1,0 +1,26 @@
+@model IEnumerable<BlogApp.Models.Post>
+
+<h2>Blog Posts</h2>
+
+
+
+@if (!Model.Any())
+{
+    <p>No posts available.</p>
+}
+else
+{
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-6">
+                <div class="post-container">
+                    <h3 class="post-title">@post.Title</h3>
+                    <p class="post-content">@post.Content</p>
+                    <a class="read-more" href="@Url.Action("Details", "Posts", new { id = post.PostId })">Read More</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@post.PostId">Delete</a>
+                </div>
+            </div>
+        }
+    </div>
+}

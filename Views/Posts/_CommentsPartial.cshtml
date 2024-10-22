@@ -1,0 +1,12 @@
+@model List<Comment>
+
+<h3>Comments</h3>
+<ul>
+    @foreach (var comment in Model)
+    {
+        <li>
+            <strong>@comment.Author</strong> (@comment.CommentedAt.ToString("g")):<br />
+            <p>@comment.Text</p>
+        </li>
+    }
+</ul>

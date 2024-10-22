@@ -4,5 +4,15 @@
 <p>Posted on @Model.CreatedAt</p>
 
 
+<hr />
+<!-- Display comments -->
+@await Html.PartialAsync("_CommentsPartial", Model.Comments)
+
+<hr />
+<!-- Comment form -->
+@await Html.PartialAsync("_CommentFormPartial", new Comment { PostId = Model.PostId})
+
+
+
 
 

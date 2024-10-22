@@ -140,3 +140,4 @@ D:\Blog\BlogApp\obj\Debug\net8.0\refint\BlogApp.dll
 D:\Blog\BlogApp\obj\Debug\net8.0\BlogApp.pdb
 D:\Blog\BlogApp\obj\Debug\net8.0\BlogApp.genruntimeconfig.cache
 D:\Blog\BlogApp\obj\Debug\net8.0\ref\BlogApp.dll
+D:\Blog\BlogApp\obj\Debug\net8.0\BlogApp.sourcelink.json

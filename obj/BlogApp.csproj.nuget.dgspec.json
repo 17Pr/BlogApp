@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Blog\\BlogApp\\BlogApp.csproj": {}
+    "D:\\Blog\\BlogAPP\\BlogApp.csproj": {}
   },
   "projects": {
-    "D:\\Blog\\BlogApp\\BlogApp.csproj": {
+    "D:\\Blog\\BlogAPP\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Blog\\BlogApp\\BlogApp.csproj",
+        "projectUniqueName": "D:\\Blog\\BlogAPP\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "D:\\Blog\\BlogApp\\BlogApp.csproj",
+        "projectPath": "D:\\Blog\\BlogAPP\\BlogApp.csproj",
         "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
-        "outputPath": "D:\\Blog\\BlogApp\\obj\\",
+        "outputPath": "D:\\Blog\\BlogAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\priya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

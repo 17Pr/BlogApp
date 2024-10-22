@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NHvXKf1iBRA=",
+  "dgSpecHash": "OgbBAPfI45U=",
   "success": true,
-  "projectFilePath": "D:\\Blog\\BlogApp\\BlogApp.csproj",
+  "projectFilePath": "D:\\Blog\\BlogAPP\\BlogApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\priya\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\priya\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

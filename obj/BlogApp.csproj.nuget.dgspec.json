@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Blog\\BlogAPP\\BlogApp.csproj": {}
+    "D:\\Blog\\BlogApp\\BlogApp.csproj": {}
   },
   "projects": {
-    "D:\\Blog\\BlogAPP\\BlogApp.csproj": {
+    "D:\\Blog\\BlogApp\\BlogApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Blog\\BlogAPP\\BlogApp.csproj",
+        "projectUniqueName": "D:\\Blog\\BlogApp\\BlogApp.csproj",
         "projectName": "BlogApp",
-        "projectPath": "D:\\Blog\\BlogAPP\\BlogApp.csproj",
+        "projectPath": "D:\\Blog\\BlogApp\\BlogApp.csproj",
         "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
-        "outputPath": "D:\\Blog\\BlogAPP\\obj\\",
+        "outputPath": "D:\\Blog\\BlogApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\priya\\AppData\\Roaming\\NuGet\\NuGet.Config"

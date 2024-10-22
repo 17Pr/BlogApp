@@ -24,25 +24,19 @@ namespace BlogApp.Controllers
 
         // GET: Posts/Create
         public IActionResult Create()
-        {
-            return View();
-        }
+{
+    return View();
+}
 
-        // POST: Posts/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Post post)
-        {
-            if (ModelState.IsValid)
-            {
-                post.CreatedAt = DateTime.Now;
-                _context.Add(post);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-
-            return View(post);
-        }
+// POST: Posts/Create
+[HttpPost]
+public async Task<IActionResult> Create(Post post)
+{
+    post.CreatedAt = DateTime.Now;
+    _context.Add(post);
+    await _context.SaveChangesAsync();
+    return RedirectToAction(nameof(Index));
+}
 
         // GET: Posts/Details/5
         public IActionResult Details(int id)
